@@ -1,5 +1,7 @@
 version: '2'
 services:
+  php:
+    image: php:7.2-fpm
   mariadb:
     image: docker.io/bitnami/mariadb:10.4
     environment:
